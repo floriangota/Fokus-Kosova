@@ -17,6 +17,18 @@
     font-weight: 400;
     margin-bottom: 30px;
   }  
+  .fokus {
+    position: relative;
+    top: -30px;
+    font-size:xx-large ;
+  }
+  @media screen and (max-width: 760px) {
+    .fokus {
+      display: flex;
+      font-size: 20px;
+      margin-top: 0;
+    }
+  }
   .jumbotron {
     background-image: url(depo.jpg);
     background-repeat: no-repeat;
